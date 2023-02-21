@@ -1,0 +1,136 @@
+<!--Womwork Página de Publicidad-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Mejor estilo al compartir la página -->
+    <meta property="og:site_name" content="" /> 
+    <meta property="og:site" content="" /> 
+    <meta property="og:title" content=""/> 
+    <meta property="og:description" content="" /> 
+    <meta property="og:image" content="" /> 
+    <meta property="og:url" content="" /> 
+    <meta property="og:type" content="article" />
+
+    <!-- Nombre del Sitio Web -->
+    <title>¿Olvidaste tu contraseña?</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <!-- Icono de la página  -->
+    <link rel="icon" href="images/womworklogo.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Pantalla de Carga con 3 puntos -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+
+            <!-- Logo de Womwork  -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/womworklogo.png" ></a> 
+            
+            <!-- Movimiento del Menú para toda la página web-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+
+            <!--Menú de Opciones-->
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">INICIO<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">INFORMACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#details">DETALLES</a>
+                    </li>
+
+                    <!-- Opción más contenido -->          
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="#video" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">MÁS CONTENIDO</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMINOS Y CONDICIONES</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">POLITICA DE PRIVACIDAD</span></a>
+                        </div>
+                    </li>
+                    <!-- Botón de Inicio de Sesión-->
+                </ul>
+                <span class="nav-item">
+                    <a class="btn-outline-sm" href="log-in.html">INICIAR SESIÓN</a>
+                </span>
+            </div>
+        </div> 
+    </nav> 
+  
+
+
+    <!-- Menú -->
+    <header id="header" class="ex-2-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Recupera tu cuenta</h1>
+                    <p>Ingresa el correo de tu cuenta donde te enviaremos las instrucciones para recuperar tu contraseña.</p>
+                    <!-- Recuperar Cuenta-->
+                    <div class="form-container">
+                        <form id="logInForm" data-toggle="validator" data-focus="false">
+                            <div class="form-group">
+                                <input type="email" class="form-control-input" id="lemail" required>
+                                <label class="label-control" for="lemail">Correo Electrónico</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="nav-item">
+                                <a class="btn-outline-sm" href="log-in.html">Regresar</a>
+                            </div>
+                            <div class="form-message">
+                                <div id="lmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+
+                            <div class="nav-item-dos">
+                                <a class="btn-outline-dos" href="email.html">Buscar</a>
+                            </div>
+                            <div class="form-message">
+                                <div id="lmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div> 
+                    <br/>
+                        <p>¿No tienes cuenta?, Regístrate <a class="white" href="sign-up.html">Aquí</a></p> 
+                        
+                </div>
+            </div> 
+        </div> 
+    </header>
+
+<!--Script-->
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery.easing.min.js"></script> 
+    <script src="js/swiper.min.js"></script> 
+    <script src="js/jquery.magnific-popup.js"></script> 
+    <script src="js/validator.min.js"></script> 
+    <script src="js/scripts.js"></script> 
+</body>
+</html>
